@@ -16,6 +16,10 @@
 }
 .section-description, .subsection-description{
    color: rgba(14, 14, 14, 0.7);
+   line-height: 24px;
+}
+.section-description{
+    margin-top: 24px;
 }
 .subsection-title{
     color: rgba(14, 14, 14, 0.8);
@@ -93,5 +97,72 @@ nav h3{
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     margin-top: 32px;
+}
+
+/*vision section style*/
+.vision{
+    margin: 0px 160px 80px;
+}
+.vision-items{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.vision-item{
+    width: 410.67px;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.vision-btn{
+    padding: 11px 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.vision-btn-bg1{
+    background-color: #5490F5;
+}
+.vision-btn-bg2{
+    background-color: #09A15C;
+}
+.vision-btn-bg3{
+    background-color: #FFC239;
+}
+.vision-item-bg1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-item-bg2{
+    background-color: #C6E4D6;
+}
+.vision-item-bg3{
+    background-color: #F7EBCF;
+}
+
+.speech{
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 23px;
+}
+.speech-title{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+    line-height: 24px;
+}
+.speech-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+   
+    margin-top: 4px;
+}
+.speaker{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
 }
 
