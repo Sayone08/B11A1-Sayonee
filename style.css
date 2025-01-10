@@ -217,6 +217,7 @@ nav h3{
     border-radius: 8px;
     border: none;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 /* Donation style */
@@ -260,4 +261,61 @@ nav h3{
     font-size: 18px;
     border-radius: 8px;
     border: none;
+}
+
+/* Subscribe-style style */
+
+.subscribe{
+    margin: 0px 160px 80px;
+    padding: 80px 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    border: none;
+}
+.subscription-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-top: 24px;
+}
+.subscription-input{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 18px 403px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.subscription-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+}
+
+/* Subscribe-style style */
+footer{
+    background-color: #FFFFFF;
+    padding: 50px 0px;
+}
+footer h3{
+    font-size: 32px;
+    text-align: center;
+}
+footer hr{
+    margin: 32px 239px;
+    border: 0;
+    border-top: 2px solid rgba(14, 14, 14, 0.1);
+
+}
+.icons{
+    display: flex;
+    gap: 23px;
+    justify-content: center;
 }
