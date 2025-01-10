@@ -165,8 +165,57 @@ nav h3{
     color: rgba(14, 14, 14, 0.8);
     font-weight: bold;
 }
+/*option-styles*/
+.options{
+    margin: 0px 160px 80px;
+}
+.table-for-options{
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    width: 100%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+th{
+    background-color: #C6E4D6;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.questions{
+    background-color: #FFFFFF;
+    text-align: left;
+    width: 85%;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 1);
+    padding-left: 24px;
 
-
+}
+.select-options{
+    width: 15%;
+    text-align: center;
+}
+select{
+    padding: 12.5px 16.5px;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    text-align: center;
+    margin: 24px 0px;
+    font-weight: 600;
+}
 /*recent-styles*/
 .recent-news{
     margin: 0px 160px 80px;
