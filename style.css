@@ -10,6 +10,18 @@
     margin: 0;
     padding: 0;
 }
+.section-title{
+   font-size: 40px;
+   font-weight: bold;
+}
+.section-description, .subsection-description{
+   color: rgba(14, 14, 14, 0.7);
+}
+.subsection-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin: 24px 0px 12px;
+}
 body{
     background-color: #F5F5F5;
 }
@@ -63,5 +75,23 @@ nav h3{
     font-size: 56px;
     font-weight:bold;
     margin: 16px 0px 24px;
+}
+
+/*pillar section style*/
+.pillar{
+    margin: 0px 160px 80px;
+}
+.pillars-items{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.pillar-item{
+    max-width: 302px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
 }
 
